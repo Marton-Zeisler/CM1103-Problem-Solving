@@ -1,0 +1,30 @@
+Functions of ATM
+ - Authenticate user with card number and pin code
+	- Finding card number in the database and checking if pin code matches
+
+ - Create new user
+	- Generates a random card number and adds it to the database with the given pin code
+
+ - Check balance
+	- After user authenticated, balance is read from the database into a local variable
+
+ - Deposit money
+	- Balance gets updated and saved
+
+ - Withdraw money
+	- Balance gets updated
+ 
+ - Send money to another account by card number
+	- Checking if given card number exists in the database if yes money is transferred
+
+ - Lottery game
+	- The higher the cost for the ticket is the more the user can win
+	- Use random number generator
+
+
+Accounts Database
+ - Storing card number, pin code encrypted and balance
+
+Models
+ - Account
+	- card number, balance

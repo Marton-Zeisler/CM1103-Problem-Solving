@@ -26,7 +26,7 @@ def Q2():
 
 # 3
 def Q3():
-	square  = lambda n : n * n
+	square = lambda n : n * n
 	print(square(2))
 
 # Q3()
